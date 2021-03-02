@@ -38,7 +38,7 @@ Setup environment as follows:
 ~~~bash
 conda create -n layoutlm python=3.6
 conda activate layoutlm
-conda install pytorch==1.4.0 cudatoolkit=10.1 -c pytorch
+conda install pytorch==1.6.0 cudatoolkit=10.1 -c pytorch
 git clone https://github.com/NVIDIA/apex && cd apex
 pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 pip install .
