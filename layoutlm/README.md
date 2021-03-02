@@ -36,7 +36,7 @@ We evaluate LayoutLM on several document image understanding datasets, and it ou
 Setup environment as follows:
 
 ~~~bash
-conda create -n layoutlm python=3.6
+conda create -n layoutlm python=3.7
 conda activate layoutlm
 conda install pytorch==1.6.0 cudatoolkit=10.1 -c pytorch
 git clone https://github.com/NVIDIA/apex && cd apex
