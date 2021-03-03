@@ -47,6 +47,13 @@ pip install -r requirements.txt
 # pip install -e ".[dev]"
 ~~~
 
+### Git Clone LayoutLM
+
+~~~bash
+
+git clone https://github.com/microsoft/unilm.git
+
+~~~
 ### Sequence Labeling Task
 
 
