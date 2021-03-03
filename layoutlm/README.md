@@ -52,6 +52,8 @@ pip install -r requirements.txt
 ~~~bash
 
 git clone https://github.com/microsoft/unilm.git
+cd unilm/layoutlm
+pip install .
 
 ~~~
 ### Sequence Labeling Task
